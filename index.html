@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .attribution { font-size: 1rem; color: #FFFFFF; position: absolute; top: 0;}
+    .attribution a { color: hsl(146.3, 76.2%, 32.9%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="positionCheckox">
+      <input type="radio" name="toggle" id="chk1" class="toggle one" autocomplete="off">
+      <label for="chk1"><span class="text">Default</span></label>
+    </div>
+    <div class="positionCheckox">
+      <input type="radio" name="toggle" id="chk2" class="toggle two" autocomplete="off">
+      <label for="chk2"><span class="text">Light</span></label>
+    </div>
+    <div class="positionCheckox">
+      <input type="radio" name="toggle" id="chk3" class="toggle three" autocomplete="off">
+      <label for="chk3"><span class="text">Violet</span></label>
+    </div>
+    <label class="heading text"> Calculator
+      <div class="input">0</div>
+    </label>
+    <div class="keypad">
+      <button class="num number" id="7">7</button>
+      <button class="num number" id="8">8</button>
+      <button class="num number" id="9">9</button>
+      <button class="num action del dr" id="delete">del</button>
+      <button class="num number" id="4">4</button>
+      <button class="num number" id="5">5</button>
+      <button class="num number" id="6">6</button>
+      <button class="num operation" id="plus">+</button>
+      <button class="num number" id="1">1</button>
+      <button class="num number" id="2">2</button>
+      <button class="num number" id="3">3</button>
+      <button class="num operation" id="minus">-</button>
+      <button class="num operation" id="dot">.</button>
+      <button class="num number" id="0">0</button>
+      <button class="num operation" id="divide">/</button>
+      <button class="num operation" id="multiply">x</button>
+      <button class="num action reset dr" id="reset">reset</button>
+      <button class="num equal" id="equal">=</button>
+    </div>
+  </main>
+
+  <div class="attribution text">
+    <a href="https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29/hub/calculator-app-KU0GZLk6W-" target="_blank">Challenge</a> by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/00bga" target="_blank">Nick</a>(gitHub).
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
